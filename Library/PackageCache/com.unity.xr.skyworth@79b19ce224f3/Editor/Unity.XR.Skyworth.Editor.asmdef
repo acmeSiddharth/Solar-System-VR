@@ -1,0 +1,30 @@
+{
+    "name": "Unity.XR.Skyworth.Editor",
+    "references": [
+        "GUID:f9fe0089ec81f4079af78eb2287a6163",
+        "GUID:e40ba710768534012815d3193fa296cb",
+        "GUID:1232a3c8f0273d34b9d232dc21013067"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.management",
+            "expression": "3.2.0",
+            "define": "XR_MGMT_GTE_320"
+        },
+        {
+            "name": "com.unity.modules.unitywebrequest",
+            "expression": "4.0.1",
+            "define": "XR_MGMT_GTE_401"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.unity.xr.skyworth": {
+      "tarball": {
+        "hash": "79b19ce224f3",
+        "mtime": 1690969715014,
+        "size": 1963122,
+        "localPath": "C:\\Users\\Manish B K\\Downloads\\SkyworthXR Plugin SDK.tgz"
+      }
+    }
+  }
+}

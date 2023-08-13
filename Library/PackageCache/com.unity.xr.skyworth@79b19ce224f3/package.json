@@ -1,0 +1,40 @@
+{
+  "name": "com.unity.xr.skyworth",
+  "displayName": "Skyworth XR Plugin",
+  "version": "1.0.6",
+  "unity": "2019.4",
+  "unityRelease": "0f0",
+  "description": "Provides display and input support for Skyworth XR devices.",
+  "keywords": [
+    "vr",
+    "xr",
+    "reality",
+    "xreditorsubsystem",
+    "V901",
+    "S801",
+    "V601"
+  ],
+  "dependencies": {
+    "com.unity.xr.management": "3.2.16",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.xr.interaction.toolkit": "0.9.4-preview"
+  },
+  "samples": [
+    {
+      "displayName": "Input Sample",
+      "description": "Some examples code of how to obtain the input value of the headset and handle.",
+      "path": "Samples~/Input Sample"
+    },
+    {
+      "displayName": "Stereo Sample",
+      "description": "Realize different images for left and right eyes.",
+      "path": "Samples~/Stereo Sample"
+    },
+    {
+      "displayName": "New InputSystem Sample",
+      "description": "",
+      "path": "Samples~/New InputSystem Sample"
+    }
+  ],
+  "type": "library"
+}

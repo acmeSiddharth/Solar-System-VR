@@ -1,0 +1,36 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "svr_plugin_opengl_render"
+  }
+  digests {
+    sha256: "J;X\3708\261\216\276\222vK\321\024\327g\n\342&\024L\n\210\305\257\220G\331I\027i\265\365"
+  }
+}
+library {
+  maven_library {
+    artifactId: "svr_plugin_input_method"
+  }
+  digests {
+    sha256: "gOt.k\233B\024M\017\303yF\367\202\021\3359\342l\355O\327Z\317f\302\2452\027\236$"
+  }
+}
+library {
+  digests {
+    sha256: "\035,\255\221cQ\252`D\023L\v\024\\xV\265b\313\216E\313T\222\377\023\273\261\243\2227\320"
+  }
+}
+library_dependencies {
+}
+library_dependencies {
+  library_index: 1
+}
+library_dependencies {
+  library_index: 2
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 2
+}

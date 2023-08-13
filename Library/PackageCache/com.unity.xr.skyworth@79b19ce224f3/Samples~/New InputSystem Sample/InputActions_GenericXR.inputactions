@@ -1,0 +1,596 @@
+{
+    "name": "InputActions_GenericXR",
+    "maps": [
+        {
+            "name": "Generic XR",
+            "id": "7ce50ab5-f6ac-4d66-8708-ca75c3712c77",
+            "actions": [
+                {
+                    "name": "Left Position",
+                    "type": "Value",
+                    "id": "ee513fed-70e2-4ad2-b70d-30479f5d6801",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Left Rotation",
+                    "type": "Value",
+                    "id": "aadc435e-674a-41c4-ad40-9a34049472d9",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Left Home Pressed",
+                    "type": "Button",
+                    "id": "ed2073bd-c6fe-42a1-926b-6b767f89baff",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Left Menu Pressed",
+                    "type": "Button",
+                    "id": "f3f131f7-587f-4037-9f17-790aaa2fe45c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Left Trigger Pressed",
+                    "type": "Button",
+                    "id": "7176fbf2-d63b-4d5d-8456-844dd623e3ab",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Left Trigger Axis",
+                    "type": "Value",
+                    "id": "2dca5048-5503-4ac8-8a38-ae40abcf1566",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Left Grip Pressed",
+                    "type": "Button",
+                    "id": "277fdbb0-245f-4345-90e9-53c99611e8a4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Left Grip Axis",
+                    "type": "Value",
+                    "id": "701f1a32-37a5-45f2-ade5-91cb8bd5b0d7",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Left Touchpad Touched",
+                    "type": "Button",
+                    "id": "dfd596b0-b8da-44af-8e71-8a65f6dda55b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Left Touchpad Pressed",
+                    "type": "Button",
+                    "id": "02ba91d9-5bcc-4bd1-91ae-4a51bc4d5281",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Left Touchpad Axis",
+                    "type": "Value",
+                    "id": "91307b7f-1208-4338-8088-b0977ddf7def",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Right Position",
+                    "type": "Value",
+                    "id": "0a88e9ef-7463-4f0d-9916-c9799610b9c3",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Right Rotation",
+                    "type": "Value",
+                    "id": "b79dc035-7cc8-4c91-8060-15015c00f87a",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Right Home Pressed",
+                    "type": "Button",
+                    "id": "07b254a7-9c6a-41b4-95b5-1e56485edb57",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Right Menu Pressed",
+                    "type": "Button",
+                    "id": "12b063ad-5653-420f-bdc7-250f855857dc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Right Trigger Pressed",
+                    "type": "Button",
+                    "id": "5ef10729-9944-4972-8e35-95405ba95f1e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Right Trigger Axis",
+                    "type": "Value",
+                    "id": "7610e470-5a69-40d7-ac47-e57edd615b34",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Right Grip Pressed",
+                    "type": "Button",
+                    "id": "706ad657-2fa5-46cd-b519-c53bf2de151d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Right Grip Axis",
+                    "type": "Value",
+                    "id": "1f58bfd8-abcd-431b-befe-352c4e464f22",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Right Touchpad Touched",
+                    "type": "Button",
+                    "id": "7e1740b7-37a7-42fe-9d35-e2ea0e1340dd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Right Touchpad Pressed",
+                    "type": "Button",
+                    "id": "787926ac-c187-48d1-9342-50f096b95154",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Right Touchpad Axis",
+                    "type": "Value",
+                    "id": "e9abf06e-24a8-473e-a98b-b8a401b65f31",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "HMD Position",
+                    "type": "Value",
+                    "id": "c041dbc7-7598-4460-a5d4-3f043ea04334",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "HMD Rotation",
+                    "type": "Value",
+                    "id": "ed3c71c1-e3cf-43f2-bada-eed483fe0271",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "HMD Back",
+                    "type": "Button",
+                    "id": "f3fd9d35-8166-41c0-8e27-b9f199bbc0e7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HMD Enter Pressed",
+                    "type": "Button",
+                    "id": "f96c0b72-5828-4535-be09-7e91434850e1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HMD VolumUp Pressed",
+                    "type": "Button",
+                    "id": "4fd85f87-5133-4fb1-b672-98def107ea35",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HMD VolumDown Pressed",
+                    "type": "Button",
+                    "id": "170d3492-a5c9-41fc-8363-f2d343e5c88f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "744ebc37-1767-49a1-b7fa-77bae570219d",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Trigger Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fb3961b2-8f0d-4773-8757-37be521bb3c0",
+                    "path": "<XRController>{LeftHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Grip Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d02f21c3-5b9d-4273-aa62-d574158077bb",
+                    "path": "<XRController>{LeftHand}/touchpadTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Touchpad Touched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0e3c4e9d-b05c-4f70-89b5-56414a848e61",
+                    "path": "<XRController>{LeftHand}/touchpadClick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Touchpad Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a93ab05d-6b3c-491d-8afc-25409765427c",
+                    "path": "<XRController>{LeftHand}/home",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Home Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dccc9c85-ee5e-4da7-989a-9d39e17bddd5",
+                    "path": "<XRController>{LeftHand}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Menu Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d4053378-e958-4c21-9f4a-5af419e3ddf6",
+                    "path": "<XRController>{LeftHand}/touchAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Touchpad Axis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "19ba18e3-f598-4876-bff4-df835ed03025",
+                    "path": "<XRController>{LeftHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Trigger Axis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "05c2ede1-7d58-4869-9d81-86f9a3a90082",
+                    "path": "<XRController>{LeftHand}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Grip Axis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "168366f7-2cb4-4161-9555-cf8208d484ad",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Trigger Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e38c9430-02d7-469a-8b9b-93d0880ed6bd",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Grip Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "67675d1d-e68a-4624-9f93-1ebd76b5c159",
+                    "path": "<XRController>{RightHand}/touchpadTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Touchpad Touched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3c7ba0a3-4f19-40be-ab01-653a0d6d15aa",
+                    "path": "<XRController>{RightHand}/touchpadClick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Touchpad Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7bd8b108-e2e6-42e0-93fd-2e70299cadae",
+                    "path": "<XRController>{RightHand}/home",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Home Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e783ca58-27f1-4dc5-92ea-ef4df61b77fc",
+                    "path": "<XRController>{RightHand}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Menu Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cff083a6-3f01-4789-a7ac-fbac350351dc",
+                    "path": "<XRController>{RightHand}/touchAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Touchpad Axis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "be2f2769-695f-456f-9e26-bd7adcf25d32",
+                    "path": "<XRController>{RightHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Trigger Axis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c853ce6d-0bcf-419c-8351-842999c0de0a",
+                    "path": "<XRController>{RightHand}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Grip Axis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "73418bf4-5003-43e2-8bd8-e530d42778ca",
+                    "path": "<XRHMD>/back",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HMD Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bd6fc2c1-cd86-46ad-a23d-7f030299b16b",
+                    "path": "<XRHMD>/backButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HMD Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c4cefdf4-1705-473f-9116-08e4ce9fa1c1",
+                    "path": "<XRHMD>/clickButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HMD Enter Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "906ceb4e-e540-4425-be64-5c8407e9d009",
+                    "path": "<SkyworthHMD>/clickButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HMD Enter Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "39a7db04-05fa-43b4-8010-155c6d12c2aa",
+                    "path": "<XRHMD>/volumUpButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HMD VolumUp Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "73f8e5da-3e33-4dd7-845a-f31a14ab7aba",
+                    "path": "<XRHMD>/volumDownButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HMD VolumDown Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "632e7513-a0d1-479f-a86c-87539052736a",
+                    "path": "<XRController>{LeftHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "170f0228-1a80-46ab-ba88-1a49af7f4035",
+                    "path": "<XRController>{LeftHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e8ca291c-e44d-4e42-aed6-74a57575b5d4",
+                    "path": "<XRController>{RightHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1b4cef07-9fa0-4cd2-848e-89468968e533",
+                    "path": "<XRController>{RightHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "add1a2f1-ffda-427f-ba00-8d79b2f75645",
+                    "path": "<XRHMD>/centerEyePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HMD Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "71fd0f26-dc2e-481e-b867-cebafdeba0fa",
+                    "path": "<XRHMD>/centerEyeRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HMD Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
