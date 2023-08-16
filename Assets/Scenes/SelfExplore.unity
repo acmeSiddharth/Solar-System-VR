@@ -2977,7 +2977,7 @@ MonoBehaviour:
   PointTriggerDown: 0
   GazeModeEnable: 0
   default_distance: 9
-  maxReticleDistance: 20
+  maxReticleDistance: 999999
   reticleSegments: 20
   reticleGrowthSpeed: 8
   reticleSortingOrder: 32767

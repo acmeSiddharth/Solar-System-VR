@@ -31,6 +31,11 @@ public class ManageMenu : MonoBehaviour
         SceneManager.LoadScene("Activities");
     }
 
+    public void ActivityOne()
+    {
+        SceneManager.LoadScene("Playscene");
+    }
+
    
 
     public void OnApplicationQuit()
