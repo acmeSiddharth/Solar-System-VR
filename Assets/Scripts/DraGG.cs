@@ -2,6 +2,10 @@
 using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
+using System;
+using Unity.VisualScripting;
+using System.Collections;
 
 public class DraGG : MonoBehaviour
 {
@@ -10,45 +14,54 @@ public class DraGG : MonoBehaviour
     private Transform InitParent;
     private Vector3 InitPos;
     private Vector3 SCaleValue;
-    
-
-
-    // Start is called before the first frame update
+     public Transform target,TransData;
+   
     void Start()
     {
-       InitPos = gameObject.GetComponent<RectTransform>().transform.position;
-       InitParent = gameObject.transform.parent;
-       SCaleValue= gameObject.transform.localScale;
-       
+        InitParent = gameObject.transform.parent;
+        InitPos = gameObject.transform.localPosition;
+        SCaleValue= gameObject.transform.localScale;
+        TransData = gameObject.transform;
     }
-
-    // Update is called once per frame
+    
+   
     void Update()
     {
+       
         if(isDraging)
         {
-            gameObject.transform.position = ParentTransistion.transform.position;
+        gameObject.transform.position = ParentTransistion.transform.position;  
+        gameObject.transform.LookAt(Camera.main.transform); 
+        gameObject.transform.Rotate(0,180,0);
         }
     }
+
 
     public void DownMouse()
     {
         isDraging = true;
-      gameObject.transform.parent = ParentTransistion.transform;
-      //gameObject.transform.position = new Vector3(0,0,0);
-      gameObject.transform.localScale = new Vector3(1,1,1);
-        
+        gameObject.transform.parent= ParentTransistion.transform;
+        gameObject.transform.localScale = new Vector3(2,1,1);   
+        this.gameObject.GetComponent<Image>().raycastTarget = false; 
+
     }
+
+
     public void UpMouse()
     {
-        
-        isDraging =false;
-       
-       
-       gameObject.transform.parent = InitParent;
-       gameObject.transform.position = InitPos;
-       gameObject.transform.localScale = SCaleValue;
-        
-    
+         isDraging =false;
+        gameObject.transform.parent = InitParent;
+        gameObject.transform.localPosition = InitPos;
+        gameObject.transform.localScale = SCaleValue;
+        gameObject.transform.rotation = Quaternion.Euler(new Vector3(0,0,0));
+        this.gameObject.GetComponent<Image>().raycastTarget = true;  
+      
     }
+
+    // IEnumerator Wainging()
+    // {
+    //    // StartCoroutine(Wainging());
+    //     yield return new WaitForSeconds(5f);
+        
+    // }
 }
