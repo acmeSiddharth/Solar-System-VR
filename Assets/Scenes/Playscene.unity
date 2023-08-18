@@ -418,6 +418,7 @@ GameObject:
   - component: {fileID: 84892058}
   - component: {fileID: 84892062}
   - component: {fileID: 84892061}
+  - component: {fileID: 84892063}
   m_Layer: 0
   m_Name: Mercury
   m_TagString: mercury
@@ -434,7 +435,7 @@ RectTransform:
   m_GameObject: {fileID: 84892056}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.1, z: 0.7}
+  m_LocalScale: {x: 0.7, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1888692647}
@@ -542,6 +543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentTransistion: {fileID: 1958039664}
   target: {fileID: 0}
+  TransData: {fileID: 0}
 --- !u!114 &84892062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -587,6 +589,30 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 84892063}
+          m_TargetAssemblyTypeName: ObjectChecking, Assembly-CSharp
+          m_MethodName: MouseUp
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &84892063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84892056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb508a3003ee75d499ad8ebc4dbcf5f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &100342320
 GameObject:
   m_ObjectHideFlags: 0
@@ -1034,7 +1060,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Jupiter
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1061,7 +1087,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.7
+  m_fontSize: 26.2
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1125,9 +1151,10 @@ GameObject:
   - component: {fileID: 223140565}
   - component: {fileID: 223140564}
   - component: {fileID: 223140563}
+  - component: {fileID: 223140568}
   m_Layer: 0
-  m_Name: Mercury (6)
-  m_TagString: mercury
+  m_Name: Saturn
+  m_TagString: saturn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1141,12 +1168,12 @@ RectTransform:
   m_GameObject: {fileID: 223140561}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.1, z: 0.7}
+  m_LocalScale: {x: 0.7, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 928579095}
   m_Father: {fileID: 434156781}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1167,6 +1194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentTransistion: {fileID: 1958039664}
   target: {fileID: 0}
+  TransData: {fileID: 0}
 --- !u!114 &223140564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1203,6 +1231,18 @@ MonoBehaviour:
         - m_Target: {fileID: 223140563}
           m_TargetAssemblyTypeName: DraGG, Assembly-CSharp
           m_MethodName: UpMouse
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 223140568}
+          m_TargetAssemblyTypeName: ObjectChecking, Assembly-CSharp
+          m_MethodName: MouseUp
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1294,6 +1334,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 223140561}
   m_CullTransparentMesh: 1
+--- !u!114 &223140568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223140561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb508a3003ee75d499ad8ebc4dbcf5f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &229503553
 GameObject:
   m_ObjectHideFlags: 0
@@ -1435,7 +1487,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Mars
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1462,7 +1514,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.7
+  m_fontSize: 37
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1856,7 +1908,7 @@ GameObject:
   - component: {fileID: 401753811}
   - component: {fileID: 401753810}
   m_Layer: 0
-  m_Name: Panel_Button
+  m_Name: Panel_Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2363,9 +2415,9 @@ RectTransform:
   - {fileID: 1339152470}
   - {fileID: 705524274}
   - {fileID: 1738681688}
-  - {fileID: 2089491848}
   - {fileID: 223140562}
   - {fileID: 1384258611}
+  - {fileID: 2089491848}
   m_Father: {fileID: 1518925141}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 10, z: 0}
@@ -3712,9 +3764,10 @@ GameObject:
   - component: {fileID: 705418383}
   - component: {fileID: 705418382}
   - component: {fileID: 705418384}
+  - component: {fileID: 705418385}
   m_Layer: 0
   m_Name: Uranus
-  m_TagString: Untagged
+  m_TagString: uranus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3790,6 +3843,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+--- !u!65 &705418385
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705418380}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 100, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &705524273
 GameObject:
   m_ObjectHideFlags: 0
@@ -3804,9 +3870,10 @@ GameObject:
   - component: {fileID: 705524277}
   - component: {fileID: 705524276}
   - component: {fileID: 705524275}
+  - component: {fileID: 705524280}
   m_Layer: 0
-  m_Name: Mercury (3)
-  m_TagString: mercury
+  m_Name: Mars
+  m_TagString: mars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3820,7 +3887,7 @@ RectTransform:
   m_GameObject: {fileID: 705524273}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.1, z: 0.7}
+  m_LocalScale: {x: 0.7, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 240001371}
@@ -3846,6 +3913,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentTransistion: {fileID: 1958039664}
   target: {fileID: 0}
+  TransData: {fileID: 0}
 --- !u!114 &705524276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3882,6 +3950,18 @@ MonoBehaviour:
         - m_Target: {fileID: 705524275}
           m_TargetAssemblyTypeName: DraGG, Assembly-CSharp
           m_MethodName: UpMouse
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 705524280}
+          m_TargetAssemblyTypeName: ObjectChecking, Assembly-CSharp
+          m_MethodName: MouseUp
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3973,6 +4053,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705524273}
   m_CullTransparentMesh: 1
+--- !u!114 &705524280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705524273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb508a3003ee75d499ad8ebc4dbcf5f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &718409230
 GameObject:
   m_ObjectHideFlags: 0
@@ -4280,7 +4372,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Venus
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4307,7 +4399,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.7
+  m_fontSize: 29.35
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4369,9 +4461,10 @@ GameObject:
   - component: {fileID: 825360514}
   - component: {fileID: 825360513}
   - component: {fileID: 825360515}
+  - component: {fileID: 825360516}
   m_Layer: 0
   m_Name: Venus
-  m_TagString: Untagged
+  m_TagString: venus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4447,6 +4540,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+--- !u!65 &825360516
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825360511}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 100, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &826188201
 GameObject:
   m_ObjectHideFlags: 0
@@ -4459,6 +4565,7 @@ GameObject:
   - component: {fileID: 826188204}
   - component: {fileID: 826188203}
   - component: {fileID: 826188205}
+  - component: {fileID: 826188206}
   m_Layer: 0
   m_Name: Sun
   m_TagString: Untagged
@@ -4537,6 +4644,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+--- !u!65 &826188206
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826188201}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 100, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &860939212
 GameObject:
   m_ObjectHideFlags: 0
@@ -4550,9 +4670,10 @@ GameObject:
   - component: {fileID: 860939214}
   - component: {fileID: 860939216}
   - component: {fileID: 860939217}
+  - component: {fileID: 860939218}
   m_Layer: 0
   m_Name: Mercury
-  m_TagString: Untagged
+  m_TagString: mercury
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4635,11 +4756,24 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 860939212}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb508a3003ee75d499ad8ebc4dbcf5f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &860939218
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860939212}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 100, z: 97.61}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &884504860
 GameObject:
   m_ObjectHideFlags: 0
@@ -4828,7 +4962,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Saturn
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4855,7 +4989,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.7
+  m_fontSize: 27.2
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5260,7 +5394,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Earth
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5287,7 +5421,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.7
+  m_fontSize: 33.6
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5349,9 +5483,10 @@ GameObject:
   - component: {fileID: 967624621}
   - component: {fileID: 967624620}
   - component: {fileID: 967624622}
+  - component: {fileID: 967624623}
   m_Layer: 0
   m_Name: Mars
-  m_TagString: Untagged
+  m_TagString: mars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5427,6 +5562,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+--- !u!65 &967624623
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967624618}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 100, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &990068773
 GameObject:
   m_ObjectHideFlags: 0
@@ -5665,7 +5813,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Neptune
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5692,7 +5840,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.7
+  m_fontSize: 21.35
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6449,9 +6597,10 @@ GameObject:
   - component: {fileID: 1237192567}
   - component: {fileID: 1237192566}
   - component: {fileID: 1237192568}
+  - component: {fileID: 1237192569}
   m_Layer: 0
   m_Name: Earth
-  m_TagString: Untagged
+  m_TagString: earth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6527,6 +6676,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+--- !u!65 &1237192569
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237192564}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 100, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1265211667
 GameObject:
   m_ObjectHideFlags: 0
@@ -6873,9 +7035,10 @@ GameObject:
   - component: {fileID: 1339152473}
   - component: {fileID: 1339152472}
   - component: {fileID: 1339152471}
+  - component: {fileID: 1339152476}
   m_Layer: 0
-  m_Name: Mercury (2)
-  m_TagString: mercury
+  m_Name: Earth
+  m_TagString: earth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6889,7 +7052,7 @@ RectTransform:
   m_GameObject: {fileID: 1339152469}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.1, z: 0.7}
+  m_LocalScale: {x: 0.7, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 963613371}
@@ -6915,6 +7078,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentTransistion: {fileID: 1958039664}
   target: {fileID: 0}
+  TransData: {fileID: 0}
 --- !u!114 &1339152472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6951,6 +7115,18 @@ MonoBehaviour:
         - m_Target: {fileID: 1339152471}
           m_TargetAssemblyTypeName: DraGG, Assembly-CSharp
           m_MethodName: UpMouse
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1339152476}
+          m_TargetAssemblyTypeName: ObjectChecking, Assembly-CSharp
+          m_MethodName: MouseUp
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -7042,6 +7218,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339152469}
   m_CullTransparentMesh: 1
+--- !u!114 &1339152476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339152469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb508a3003ee75d499ad8ebc4dbcf5f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1340432821
 GameObject:
   m_ObjectHideFlags: 0
@@ -7139,9 +7327,10 @@ GameObject:
   - component: {fileID: 1384258614}
   - component: {fileID: 1384258613}
   - component: {fileID: 1384258612}
+  - component: {fileID: 1384258617}
   m_Layer: 0
-  m_Name: Mercury (7)
-  m_TagString: mercury
+  m_Name: Uranus
+  m_TagString: uranus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7155,12 +7344,12 @@ RectTransform:
   m_GameObject: {fileID: 1384258610}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.1, z: 0.7}
+  m_LocalScale: {x: 0.7, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1732936704}
   m_Father: {fileID: 434156781}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7181,6 +7370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentTransistion: {fileID: 1958039664}
   target: {fileID: 0}
+  TransData: {fileID: 0}
 --- !u!114 &1384258613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7217,6 +7407,18 @@ MonoBehaviour:
         - m_Target: {fileID: 1384258612}
           m_TargetAssemblyTypeName: DraGG, Assembly-CSharp
           m_MethodName: UpMouse
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1384258617}
+          m_TargetAssemblyTypeName: ObjectChecking, Assembly-CSharp
+          m_MethodName: MouseUp
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -7308,6 +7510,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1384258610}
   m_CullTransparentMesh: 1
+--- !u!114 &1384258617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384258610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb508a3003ee75d499ad8ebc4dbcf5f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1415474807
 GameObject:
   m_ObjectHideFlags: 0
@@ -8803,7 +9017,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Uranus
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8830,7 +9044,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.7
+  m_fontSize: 25.1
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -8894,9 +9108,10 @@ GameObject:
   - component: {fileID: 1738681691}
   - component: {fileID: 1738681690}
   - component: {fileID: 1738681689}
+  - component: {fileID: 1738681694}
   m_Layer: 0
-  m_Name: Mercury (4)
-  m_TagString: mercury
+  m_Name: Jupiter
+  m_TagString: jupiter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8910,7 +9125,7 @@ RectTransform:
   m_GameObject: {fileID: 1738681687}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.1, z: 0.7}
+  m_LocalScale: {x: 0.7, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 215217231}
@@ -8936,6 +9151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentTransistion: {fileID: 1958039664}
   target: {fileID: 0}
+  TransData: {fileID: 0}
 --- !u!114 &1738681690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8972,6 +9188,18 @@ MonoBehaviour:
         - m_Target: {fileID: 1738681689}
           m_TargetAssemblyTypeName: DraGG, Assembly-CSharp
           m_MethodName: UpMouse
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1738681694}
+          m_TargetAssemblyTypeName: ObjectChecking, Assembly-CSharp
+          m_MethodName: MouseUp
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -9063,6 +9291,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1738681687}
   m_CullTransparentMesh: 1
+--- !u!114 &1738681694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738681687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb508a3003ee75d499ad8ebc4dbcf5f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1756286916
 GameObject:
   m_ObjectHideFlags: 0
@@ -9075,9 +9315,10 @@ GameObject:
   - component: {fileID: 1756286919}
   - component: {fileID: 1756286918}
   - component: {fileID: 1756286920}
+  - component: {fileID: 1756286921}
   m_Layer: 0
   m_Name: Jupiter
-  m_TagString: Untagged
+  m_TagString: jupiter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9153,6 +9394,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+--- !u!65 &1756286921
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756286916}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 100, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1846187128
 GameObject:
   m_ObjectHideFlags: 0
@@ -9429,7 +9683,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Mercury
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9456,7 +9710,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.7
+  m_fontSize: 22.4
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -9520,9 +9774,10 @@ GameObject:
   - component: {fileID: 1899435206}
   - component: {fileID: 1899435205}
   - component: {fileID: 1899435204}
+  - component: {fileID: 1899435209}
   m_Layer: 0
-  m_Name: Mercury (1)
-  m_TagString: mercury
+  m_Name: Venus
+  m_TagString: venus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9536,7 +9791,7 @@ RectTransform:
   m_GameObject: {fileID: 1899435202}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.1, z: 0.7}
+  m_LocalScale: {x: 0.7, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 812282885}
@@ -9562,6 +9817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentTransistion: {fileID: 1958039664}
   target: {fileID: 0}
+  TransData: {fileID: 0}
 --- !u!114 &1899435205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9598,6 +9854,18 @@ MonoBehaviour:
         - m_Target: {fileID: 1899435204}
           m_TargetAssemblyTypeName: DraGG, Assembly-CSharp
           m_MethodName: UpMouse
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1899435209}
+          m_TargetAssemblyTypeName: ObjectChecking, Assembly-CSharp
+          m_MethodName: MouseUp
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -9689,6 +9957,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1899435202}
   m_CullTransparentMesh: 1
+--- !u!114 &1899435209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899435202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb508a3003ee75d499ad8ebc4dbcf5f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1920602403
 GameObject:
   m_ObjectHideFlags: 0
@@ -9985,9 +10265,10 @@ GameObject:
   - component: {fileID: 1967508508}
   - component: {fileID: 1967508507}
   - component: {fileID: 1967508509}
+  - component: {fileID: 1967508510}
   m_Layer: 0
   m_Name: Neptune
-  m_TagString: Untagged
+  m_TagString: neptune
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10063,6 +10344,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+--- !u!65 &1967508510
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967508505}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 100, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1990556513
 GameObject:
   m_ObjectHideFlags: 0
@@ -10461,9 +10755,10 @@ GameObject:
   - component: {fileID: 2089491851}
   - component: {fileID: 2089491850}
   - component: {fileID: 2089491849}
+  - component: {fileID: 2089491854}
   m_Layer: 0
-  m_Name: Mercury (5)
-  m_TagString: mercury
+  m_Name: Neptune
+  m_TagString: neptune
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10477,12 +10772,12 @@ RectTransform:
   m_GameObject: {fileID: 2089491847}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.1, z: 0.7}
+  m_LocalScale: {x: 0.7, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1042998781}
   m_Father: {fileID: 434156781}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10503,6 +10798,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParentTransistion: {fileID: 1958039664}
   target: {fileID: 0}
+  TransData: {fileID: 0}
 --- !u!114 &2089491850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10539,6 +10835,18 @@ MonoBehaviour:
         - m_Target: {fileID: 2089491849}
           m_TargetAssemblyTypeName: DraGG, Assembly-CSharp
           m_MethodName: UpMouse
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2089491854}
+          m_TargetAssemblyTypeName: ObjectChecking, Assembly-CSharp
+          m_MethodName: MouseUp
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -10630,6 +10938,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2089491847}
   m_CullTransparentMesh: 1
+--- !u!114 &2089491854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089491847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb508a3003ee75d499ad8ebc4dbcf5f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2098169298
 GameObject:
   m_ObjectHideFlags: 0
@@ -10808,9 +11128,10 @@ GameObject:
   - component: {fileID: 2144567476}
   - component: {fileID: 2144567475}
   - component: {fileID: 2144567477}
+  - component: {fileID: 2144567478}
   m_Layer: 0
   m_Name: Saturn
-  m_TagString: Untagged
+  m_TagString: saturn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10886,3 +11207,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates: []
+--- !u!65 &2144567478
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144567473}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 100, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}

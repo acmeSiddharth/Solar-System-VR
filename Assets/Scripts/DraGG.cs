@@ -1,11 +1,6 @@
-
-using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.EventSystems;
-using System;
-using Unity.VisualScripting;
-using System.Collections;
+
 
 public class DraGG : MonoBehaviour
 {
@@ -27,7 +22,6 @@ public class DraGG : MonoBehaviour
    
     void Update()
     {
-       
         if(isDraging)
         {
         gameObject.transform.position = ParentTransistion.transform.position;  
@@ -43,7 +37,6 @@ public class DraGG : MonoBehaviour
         gameObject.transform.parent= ParentTransistion.transform;
         gameObject.transform.localScale = new Vector3(2,1,1);   
         this.gameObject.GetComponent<Image>().raycastTarget = false; 
-
     }
 
 
@@ -53,15 +46,9 @@ public class DraGG : MonoBehaviour
         gameObject.transform.parent = InitParent;
         gameObject.transform.localPosition = InitPos;
         gameObject.transform.localScale = SCaleValue;
-        gameObject.transform.rotation = Quaternion.Euler(new Vector3(0,0,0));
-        this.gameObject.GetComponent<Image>().raycastTarget = true;  
-      
+        gameObject.transform.localRotation = Quaternion.Euler(new Vector3(0,0,0));
+        this.gameObject.GetComponent<Image>().raycastTarget = true;   
     }
 
-    // IEnumerator Wainging()
-    // {
-    //    // StartCoroutine(Wainging());
-    //     yield return new WaitForSeconds(5f);
-        
-    // }
+  
 }

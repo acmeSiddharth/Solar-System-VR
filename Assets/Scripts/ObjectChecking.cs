@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.IO;
 using UnityEngine;
 
 public class ObjectChecking : MonoBehaviour
@@ -15,25 +12,38 @@ public class ObjectChecking : MonoBehaviour
     }
 
     // Update is called once per frame
-   void FixedUpdate()
+   void Update()
     {
      
     {
-        Vector3 fwd = transform.TransformDirection(Vector3.forward);
-
-       
+               
     }  
     }
 
     public void MouseUp()
     {
-         ray = Camera.main.ViewportPointToRay(Camera.main.transform.position);
-        if(Physics.Raycast(ray, out hit, 1000))
-        {
-            if(hit.transform.tag !="one")
+        Vector3 fwd = Camera.main.transform.TransformDirection(Vector3.forward);
+        
+         if (Physics.Raycast(Camera.main.transform.position, fwd, out hit))
+         {
+                
+            Debug.Log("hited the " + hit.collider.gameObject.name);
+            if(hit.transform.tag == gameObject.transform.tag)
             {
-                Debug.Log("Right");
+               Debug.Log("Right Hit");
+               gameObject.SetActive(false);
+               
             }
-        }
+            else
+            {
+               Debug.Log("Wrong Hit");
+            }
+         }
+         else 
+         {
+            Debug.Log("NO-Hit");
+         }
+       
+         Debug.DrawRay(Camera.main.transform.position,fwd,Color.red);
     }
 }
