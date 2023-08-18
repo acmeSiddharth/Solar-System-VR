@@ -46,7 +46,7 @@ public class DraGG : MonoBehaviour
         gameObject.transform.parent = InitParent;
         gameObject.transform.localPosition = InitPos;
         gameObject.transform.localScale = SCaleValue;
-        gameObject.transform.localRotation = Quaternion.Euler(new Vector3(0,0,0));
+        gameObject.transform.localRotation = Quaternion.Euler(new Vector3(0,0,0));     //check Local Rotation
         this.gameObject.GetComponent<Image>().raycastTarget = true;   
     }
 
