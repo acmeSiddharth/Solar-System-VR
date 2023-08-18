@@ -14,7 +14,7 @@ public class DraGG : MonoBehaviour
     void Start()
     {
         InitParent = gameObject.transform.parent;
-        InitPos = gameObject.transform.localPosition;
+        InitPos =  gameObject.transform.localPosition;
         SCaleValue= gameObject.transform.localScale;
         TransData = gameObject.transform;
     }
