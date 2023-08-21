@@ -32,7 +32,7 @@ public class SvrPlayerController : MonoBehaviour
         Vector3 forward = Camera.main.transform.forward;
         
         forward.y = 0;
-        Debug.Log(forward);
+       // Debug.Log(forward);
         Vector3 right = Camera.main.transform.right; 
         right.y = 0;
         if (Input.GetKey(KeyCode.UpArrow))
