@@ -3790,11 +3790,13 @@ m_ResolvedPackages:
     - 2.2.1
     - 2.2.2
     - 2.2.3
+    - 2.3.0-pre.1
     - 2.4.0-exp.1
     compatible:
     - 2.2.1
     - 2.2.2
     - 2.2.3
+    - 2.3.0-pre.1
     - 2.4.0-exp.1
     verified: 2.2.3
   dependencies:
