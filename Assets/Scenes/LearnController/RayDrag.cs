@@ -36,15 +36,9 @@ public class RayDrag : MonoBehaviour
     {  
       IsDragging =false;
        //gameObject.transform.parent = InitialParent;
-       StartCoroutine(TimeWaiting());
-    }
-
-    IEnumerator TimeWaiting()
-    {
-      yield return new WaitForSeconds(2.5f);
       gameObject.transform.parent = InitialParent;
       gameObject.transform.position = InitPos;
       gameObject.transform.localRotation = Quaternion.identity;
+     
     }
- 
 }
