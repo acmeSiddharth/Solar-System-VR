@@ -5,15 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu.unity
     guid: 3bf0b81d86c9f2943adaf6efc2bbe5c2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/VrTour.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SelfExplore.unity
     guid: 29b95cc487f2f5b468a37c4b25a94324
+  - enabled: 1
+    path: Assets/Scenes/NamingSceneScripts/Demo 1.unity
+    guid: 84f5e6ecd80122c4fb6a9c2ce7479c39
   m_configObjects:
     Unity.XR.Skyworth.SkyworthSettings: {fileID: 11400000, guid: 45dba340cb717524980a62516396d84f, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5e0e96558d5e17543ac07b6c30d90d3a, type: 2}

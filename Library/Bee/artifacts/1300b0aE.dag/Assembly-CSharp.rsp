@@ -370,6 +370,8 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Scenes/LearnController/RayDrag.cs"
+"Assets/Scenes/NamingSceneScripts/NamingScript.cs"
+"Assets/Scenes/NamingSceneScripts/TextCheck.cs"
 "Assets/Scripts/CamView.cs"
 "Assets/Scripts/DargDropActivityTwo.cs"
 "Assets/Scripts/DraGG.cs"

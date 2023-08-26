@@ -55,5 +55,6 @@
     "csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": true,
     "csharp.inlayHints.enableInlayHintsForImplicitVariableTypes": true,
     "csharp.inlayHints.enableInlayHintsForTypes": true,
-    "razor.languageServer.debug": true
+    "razor.languageServer.debug": true,
+    "dotnet.defaultSolution": "_New_Solar.sln"
 }

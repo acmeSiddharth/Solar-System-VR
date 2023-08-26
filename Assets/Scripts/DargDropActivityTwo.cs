@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class DargDropActivityTwo : MonoBehaviour
 {
     private Vector3 InitialPos, ScaleLocal;
@@ -9,6 +11,7 @@ public class DargDropActivityTwo : MonoBehaviour
     private Transform InitialParent;
     private Vector3 Offset;
     private bool Isdrag;
+    public GvrReticlePointer RectileRay;
 
 
 
@@ -23,9 +26,10 @@ public class DargDropActivityTwo : MonoBehaviour
     }
     public void Update()
     {
+            Debug.Log(RectileRay.ReticleDistanceInMeters);
         if (Isdrag)
         {
-            gameObject.transform.position = Camera.main.GetComponentInChildren<GvrReticlePointer>().transform.position  +Offset;
+            gameObject.transform.position = Camera.main.GetComponentInChildren<GvrReticlePointer>().transform.position  +new Vector3(0,0, RectileRay.ReticleDistanceInMeters);
 
 
             Debug.Log(transform.position);
@@ -35,7 +39,7 @@ public class DargDropActivityTwo : MonoBehaviour
     public void OnMouseDown()
     {
         Isdrag = true;
-        Offset = gameObject.transform.position - Camera.main.transform.position;
+       // Offset = gameObject.transform.position - Camera.main.transform.position;
         //gameObject.transform.parent = TransformParent.transform;
         gameObject.transform.parent = Camera.main.GetComponentInChildren<GvrReticlePointer>().transform;
         //gameObject.transform.position = TransformParent.transform.position;
