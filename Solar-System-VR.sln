@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyworth.Interaction", "Skyworth.Interaction.csproj", "{75b241fd-5e0e-c5f5-7ea8-c29e63199499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{34b2ad6d-1895-c8bb-52c3-ed8ce6106833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyworth.Keyboard", "Skyworth.Keyboard.csproj", "{d7aafc62-a91d-8572-0d3c-cc0fdf1d8d7d}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyworth.Interaction.Editor", "Skyworth.Interaction.Editor.csproj", "{a2efd15a-8549-a69b-005a-700678cf8a0f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyworth.Keyboard.Editor", "Skyworth.Keyboard.Editor.csproj", "{45806da2-3ccb-b93e-d2a7-6ab11f1071dd}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75b241fd-5e0e-c5f5-7ea8-c29e63199499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75b241fd-5e0e-c5f5-7ea8-c29e63199499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34b2ad6d-1895-c8bb-52c3-ed8ce6106833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34b2ad6d-1895-c8bb-52c3-ed8ce6106833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d7aafc62-a91d-8572-0d3c-cc0fdf1d8d7d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d7aafc62-a91d-8572-0d3c-cc0fdf1d8d7d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a2efd15a-8549-a69b-005a-700678cf8a0f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a2efd15a-8549-a69b-005a-700678cf8a0f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45806da2-3ccb-b93e-d2a7-6ab11f1071dd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45806da2-3ccb-b93e-d2a7-6ab11f1071dd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
