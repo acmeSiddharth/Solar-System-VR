@@ -1,204 +1,202 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
-INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
-INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
-INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
-MERGED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-84:12
-MERGED from [:svr_plugin_opengl_render:] C:\Users\Manish B K\.gradle\caches\transforms-2\files-2.1\1624891a30548a87d915b5dae3293c2d\svr_plugin_opengl_render\AndroidManifest.xml:2:1-11:12
-MERGED from [:svr_plugin_input_method:] C:\Users\Manish B K\.gradle\caches\transforms-2\files-2.1\6497be98cb95bf01011534c2b44aa4a3\svr_plugin_input_method\AndroidManifest.xml:2:1-11:12
-INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
-INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
-INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+ADDED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+MERGED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-83:12
+MERGED from [:svr_plugin_opengl_render:] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\1624891a30548a87d915b5dae3293c2d\svr_plugin_opengl_render\AndroidManifest.xml:2:1-11:12
+MERGED from [:svr_plugin_input_method:] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\6497be98cb95bf01011534c2b44aa4a3\svr_plugin_input_method\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 	package
-		ADDED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:70-110
-		INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-		INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:70-110
+		INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-		ADDED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
-		INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+		INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:111-157
+		ADDED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:111-157
 	android:versionCode
-		INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-		ADDED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
-		INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+		INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:11-69
 	android:installLocation
-		ADDED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:158-198
+		ADDED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:158-198
 supports-screens
-ADDED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+ADDED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
 	android:largeScreens
-		ADDED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+		ADDED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
 	android:smallScreens
-		ADDED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+		ADDED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
 	android:normalScreens
-		ADDED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+		ADDED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
 	android:xlargeScreens
-		ADDED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+		ADDED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
 	android:anyDensity
-		ADDED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+		ADDED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
 application
-ADDED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
-MERGED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:5-82:19
-MERGED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:5-82:19
+ADDED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+MERGED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:5-81:19
+MERGED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:5-81:19
 	android:extractNativeLibs
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:18-50
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:18-50
 	android:label
-		ADDED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+		ADDED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
 	android:icon
-		ADDED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+		ADDED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
 uses-sdk
-INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-MERGED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-11:41
-MERGED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-11:41
-MERGED from [:svr_plugin_opengl_render:] C:\Users\Manish B K\.gradle\caches\transforms-2\files-2.1\1624891a30548a87d915b5dae3293c2d\svr_plugin_opengl_render\AndroidManifest.xml:7:5-9:41
-MERGED from [:svr_plugin_opengl_render:] C:\Users\Manish B K\.gradle\caches\transforms-2\files-2.1\1624891a30548a87d915b5dae3293c2d\svr_plugin_opengl_render\AndroidManifest.xml:7:5-9:41
-MERGED from [:svr_plugin_input_method:] C:\Users\Manish B K\.gradle\caches\transforms-2\files-2.1\6497be98cb95bf01011534c2b44aa4a3\svr_plugin_input_method\AndroidManifest.xml:7:5-9:41
-MERGED from [:svr_plugin_input_method:] C:\Users\Manish B K\.gradle\caches\transforms-2\files-2.1\6497be98cb95bf01011534c2b44aa4a3\svr_plugin_input_method\AndroidManifest.xml:7:5-9:41
-INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+MERGED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-11:41
+MERGED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-11:41
+MERGED from [:svr_plugin_opengl_render:] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\1624891a30548a87d915b5dae3293c2d\svr_plugin_opengl_render\AndroidManifest.xml:7:5-9:41
+MERGED from [:svr_plugin_opengl_render:] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\1624891a30548a87d915b5dae3293c2d\svr_plugin_opengl_render\AndroidManifest.xml:7:5-9:41
+MERGED from [:svr_plugin_input_method:] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\6497be98cb95bf01011534c2b44aa4a3\svr_plugin_input_method\AndroidManifest.xml:7:5-9:41
+MERGED from [:svr_plugin_input_method:] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\6497be98cb95bf01011534c2b44aa4a3\svr_plugin_input_method\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-		ADDED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-		INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-		ADDED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-		INJECTED from E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 uses-feature#0x00030000
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-54
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-54
 	android:glEsVersion
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:19-51
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:19-51
 uses-feature#android.hardware.vulkan.version
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-16:36
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-16:36
 	android:required
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:9-33
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:9-33
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-55
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-55
 uses-permission#android.permission.INTERNET
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:5-67
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:5-67
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:22-64
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-81
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-81
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:22-78
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:22-78
 uses-feature#android.hardware.touchscreen
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:5-23:36
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:5-23:36
 	android:required
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-33
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-33
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:9-52
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:9-52
 uses-feature#android.hardware.touchscreen.multitouch
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:5-26:36
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:5-26:36
 	android:required
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:9-33
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:9-33
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-63
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-63
 uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:5-29:36
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:5-29:36
 	android:required
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:9-33
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:9-33
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-72
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-72
 uses-feature#android.software.vr.mode
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:5-61
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:5-61
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:19-58
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:19-58
 uses-feature#android.software.vr.ignore.home
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:5-33:36
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:5-33:36
 	android:required
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:9-33
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:9-33
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:9-55
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:9-55
 uses-permission#android.permission.QUERY_ALL_PACKAGES
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:5-77
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:5-77
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:22-74
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:22-74
 activity#com.unity3d.player.UnityPlayerActivity
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:9-59:20
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:9-58:20
 	android:screenOrientation
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-50
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:13-50
 	android:launchMode
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:13-44
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-44
 	android:hardwareAccelerated
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-48
-	android:exported
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:13-36
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:13-48
 	android:resizeableActivity
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:13-47
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:13-47
 	android:configChanges
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:13-194
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:13-194
 	android:theme
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:13-77
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-77
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-66
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-66
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:13-51:29
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:13-50:29
 action#android.intent.action.MAIN
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:17-69
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-69
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:25-66
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:25-66
 category#android.intent.category.LAUNCHER
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:17-77
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:17-77
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:27-74
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:27-74
 meta-data#unityplayer.UnityActivity
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:13-55:40
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:13-54:40
 	android:value
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:17-37
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:17-37
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:17-57
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:17-57
 meta-data#android.notch_support
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:13-58:40
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-57:40
 	android:value
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:17-37
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:17-37
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:17-53
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:17-53
 meta-data#unity.splash-mode
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:9-63:33
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:9-62:33
 	android:value
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-30
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:13-30
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:13-45
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-45
 meta-data#unity.splash-enable
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:9-66:36
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:9-65:36
 	android:value
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-33
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-33
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-47
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-47
 meta-data#unity.launch-fullscreen
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:9-69:36
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:9-68:36
 	android:value
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-33
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:13-33
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:13-51
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-51
 meta-data#unity.allow-resizable-window
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:9-72:37
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:9-71:37
 	android:value
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:13-34
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:13-34
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:13-56
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:13-56
 meta-data#notch.config
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:9-75:50
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:9-74:50
 	android:value
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:75:13-47
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:74:13-47
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:74:13-40
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:13-40
 meta-data#unity.auto-report-fully-drawn
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:9-78:36
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:75:9-77:36
 	android:value
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:78:13-33
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:77:13-33
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:77:13-57
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:13-57
 meta-data#com.softwinner.vr.mode
-ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:79:9-81:34
+ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:78:9-80:34
 	android:value
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:81:13-31
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:80:13-31
 	android:name
-		ADDED from [:unityLibrary] E:\Unity Engine\Unity Projects\Solar System\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:80:13-50
+		ADDED from [:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:79:13-50
