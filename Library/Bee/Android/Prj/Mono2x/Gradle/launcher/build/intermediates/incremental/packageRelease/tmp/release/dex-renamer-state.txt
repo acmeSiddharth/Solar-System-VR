@@ -1,4 +1,4 @@
-#Sat Aug 26 13:11:46 IST 2023
-base.0=D\:\\PD_SOLAR\\_New_Solar\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+#Mon Aug 28 11:00:52 IST 2023
+base.0=D\:\\NewPD_solar\\Solar-System-VR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

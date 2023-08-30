@@ -2,7 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - KeyboardDemo
-    - NamingScript
+    - TextAssigninWrongAnswer
     - TextCheck
     Skyworth.Interaction.dll:
     - GvrControllerInput
@@ -26,8 +26,6 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
-    Unity.Recorder.Editor.dll:
-    - UnityEditor.Recorder.RecorderPreferencesSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -58,7 +56,6 @@ ScriptsOnlyBuild:
     - UnityEngine.SpatialTracking.TrackedPoseDriver
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.Image
@@ -97,8 +94,6 @@ ScriptsOnlyBuild:
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
-    - UnityEngine.EventSystems.EventTrigger/Entry
-    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
@@ -107,24 +102,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
   - assembly: Assembly-CSharp
     fullTypeName: TextCheck
     methodName: TextCheckingOfQuestionThree
@@ -144,21 +121,6 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
     fullTypeName: TextCheck
     methodName: TextCheckingOfQuestionOne
   - assembly: UnityEngine.CoreModule
@@ -167,51 +129,6 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
-  - assembly: Assembly-CSharp
-    fullTypeName: NamingScript
-    methodName: CreateString
   sceneClasses:
     Assets/Scenes/NamingSceneScripts/Demo 1.unity:
     - Class: 1
@@ -249,69 +166,67 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16100}
     - Class: 114
-      Script: {instanceID: 16164}
+      Script: {instanceID: 16158}
     - Class: 114
-      Script: {instanceID: 16260}
+      Script: {instanceID: 16254}
     - Class: 114
-      Script: {instanceID: 16576}
+      Script: {instanceID: 16570}
     - Class: 114
-      Script: {instanceID: 16956}
+      Script: {instanceID: 16950}
     - Class: 114
-      Script: {instanceID: 17202}
+      Script: {instanceID: 17196}
     - Class: 114
-      Script: {instanceID: 17402}
+      Script: {instanceID: 17396}
     - Class: 114
-      Script: {instanceID: 17484}
+      Script: {instanceID: 17478}
     - Class: 114
-      Script: {instanceID: 17562}
+      Script: {instanceID: 17556}
     - Class: 114
-      Script: {instanceID: 18202}
+      Script: {instanceID: 18196}
     - Class: 114
-      Script: {instanceID: 18396}
+      Script: {instanceID: 18390}
     - Class: 114
-      Script: {instanceID: 18438}
+      Script: {instanceID: 18432}
     - Class: 114
-      Script: {instanceID: 19020}
+      Script: {instanceID: 19014}
     - Class: 114
-      Script: {instanceID: 19048}
+      Script: {instanceID: 19042}
     - Class: 114
-      Script: {instanceID: 19086}
+      Script: {instanceID: 19080}
     - Class: 114
-      Script: {instanceID: 19448}
+      Script: {instanceID: 19442}
     - Class: 114
-      Script: {instanceID: 19500}
+      Script: {instanceID: 19494}
     - Class: 114
-      Script: {instanceID: 19580}
+      Script: {instanceID: 19574}
     - Class: 114
-      Script: {instanceID: 19752}
+      Script: {instanceID: 19746}
     - Class: 114
-      Script: {instanceID: 19932}
+      Script: {instanceID: 19926}
     - Class: 114
-      Script: {instanceID: 20664}
+      Script: {instanceID: 20658}
     - Class: 114
-      Script: {instanceID: 20904}
+      Script: {instanceID: 20898}
     - Class: 114
-      Script: {instanceID: 21250}
+      Script: {instanceID: 21244}
     - Class: 114
-      Script: {instanceID: 21578}
+      Script: {instanceID: 21572}
     - Class: 114
-      Script: {instanceID: 21690}
+      Script: {instanceID: 21684}
     - Class: 114
-      Script: {instanceID: 21866}
+      Script: {instanceID: 21860}
     - Class: 114
-      Script: {instanceID: 22484}
+      Script: {instanceID: 22478}
     - Class: 114
-      Script: {instanceID: 23116}
+      Script: {instanceID: 23110}
     - Class: 114
-      Script: {instanceID: 23128}
+      Script: {instanceID: 23122}
     - Class: 114
-      Script: {instanceID: 23322}
+      Script: {instanceID: 23486}
     - Class: 114
-      Script: {instanceID: 23492}
+      Script: {instanceID: 23650}
     - Class: 114
-      Script: {instanceID: 23656}
-    - Class: 114
-      Script: {instanceID: 24778}
+      Script: {instanceID: 23712}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1157,7 +1072,7 @@ ScriptsOnlyBuild:
     className: VariablesSaver
   - hash:
       serializedVersion: 2
-      Hash: 720465993a2918b1a24d76180b44e473
+      Hash: 5fb84723630b8355e9a7d75ac104cb3d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TextCheck
@@ -2045,6 +1960,12 @@ ScriptsOnlyBuild:
     className: AnimationCurveDatum
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TextAssigninWrongAnswer
+  - hash:
+      serializedVersion: 2
       Hash: 578305bd925c0c4c8000e907d37ce5bc
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
@@ -2177,6 +2098,12 @@ ScriptsOnlyBuild:
     className: ManageAnimationTime
   - hash:
       serializedVersion: 2
+      Hash: 3a5ad4f5d3374f022c5ab9940d03dd0b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DragDropPlanets
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -2271,12 +2198,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseEnterMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 4bfcd98e580a6d1edb59b8dee2d1f28b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NamingScript
   - hash:
       serializedVersion: 2
       Hash: ec4c1d7d9fe98434976788ebc4ee261e

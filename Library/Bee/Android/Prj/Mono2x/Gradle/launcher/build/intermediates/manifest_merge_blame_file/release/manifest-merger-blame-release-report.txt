@@ -7,163 +7,163 @@
 7
 8    <uses-sdk
 9        android:minSdkVersion="25"
-9-->D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+9-->D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 10        android:targetSdkVersion="30" />
-10-->D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10-->D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 11
 12    <supports-screens
-12-->D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+12-->D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
 13        android:anyDensity="true"
-13-->D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+13-->D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
 14        android:largeScreens="true"
-14-->D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+14-->D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
 15        android:normalScreens="true"
-15-->D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+15-->D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
 16        android:smallScreens="true"
-16-->D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+16-->D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
 17        android:xlargeScreens="true" />
-17-->D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+17-->D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
 18
 19    <uses-feature android:glEsVersion="0x00030000" />
-19-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-54
-19-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:19-51
+19-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-54
+19-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:19-51
 20    <uses-feature
-20-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-16:36
+20-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-16:36
 21        android:name="android.hardware.vulkan.version"
-21-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-55
+21-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-55
 22        android:required="false" />
-22-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:9-33
+22-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:9-33
 23
 24    <uses-permission android:name="android.permission.INTERNET" />
-24-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:5-67
-24-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:22-64
+24-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:5-67
+24-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:22-64
 25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-25-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-81
-25-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:22-78
+25-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-81
+25-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:22-78
 26
 27    <uses-feature
-27-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:5-23:36
+27-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:5-23:36
 28        android:name="android.hardware.touchscreen"
-28-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:9-52
+28-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:9-52
 29        android:required="false" />
-29-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-33
+29-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-33
 30    <uses-feature
-30-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:5-26:36
+30-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:5-26:36
 31        android:name="android.hardware.touchscreen.multitouch"
-31-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-63
+31-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-63
 32        android:required="false" />
-32-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:9-33
+32-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:9-33
 33    <uses-feature
-33-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:5-29:36
+33-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:5-29:36
 34        android:name="android.hardware.touchscreen.multitouch.distinct"
-34-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-72
+34-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-72
 35        android:required="false" />
-35-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:9-33
+35-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:9-33
 36    <uses-feature android:name="android.software.vr.mode" />
-36-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:5-61
-36-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:19-58
+36-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:5-61
+36-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:19-58
 37    <uses-feature
-37-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:5-33:36
+37-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:5-33:36
 38        android:name="android.software.vr.ignore.home"
-38-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:9-55
+38-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:9-55
 39        android:required="false" />
-39-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:9-33
+39-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:9-33
 40
 41    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
-41-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:5-77
-41-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:22-74
+41-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:5-77
+41-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:22-74
 42
 43    <application
-43-->D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+43-->D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
 44        android:extractNativeLibs="true"
-44-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:18-50
+44-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:18-50
 45        android:icon="@mipmap/app_icon"
-45-->D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+45-->D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
 46        android:label="@string/app_name" >
-46-->D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+46-->D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
 47        <activity
-47-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:9-58:20
+47-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:9-58:20
 48            android:name="com.unity3d.player.UnityPlayerActivity"
-48-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-66
+48-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-66
 49            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|mcc|mnc|locale|touchscreen|smallestScreenSize|layoutDirection|fontScale|density"
-49-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:13-194
+49-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:13-194
 50            android:hardwareAccelerated="false"
-50-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:13-48
+50-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:13-48
 51            android:launchMode="singleTask"
-51-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-44
+51-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-44
 52            android:resizeableActivity="false"
-52-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:13-47
+52-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:13-47
 53            android:screenOrientation="landscape"
-53-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:13-50
+53-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:13-50
 54            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
-54-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-77
+54-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-77
 55            <intent-filter>
-55-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:13-50:29
+55-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:13-50:29
 56                <action android:name="android.intent.action.MAIN" />
-56-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-69
-56-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:25-66
+56-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-69
+56-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:25-66
 57
 58                <category android:name="android.intent.category.LAUNCHER" />
-58-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:17-77
-58-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:27-74
+58-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:17-77
+58-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:27-74
 59            </intent-filter>
 60
 61            <meta-data
-61-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:13-54:40
+61-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:13-54:40
 62                android:name="unityplayer.UnityActivity"
-62-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:17-57
+62-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:17-57
 63                android:value="true" />
-63-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:17-37
+63-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:17-37
 64            <meta-data
-64-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-57:40
+64-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-57:40
 65                android:name="android.notch_support"
-65-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:17-53
+65-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:17-53
 66                android:value="true" />
-66-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:17-37
+66-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:17-37
 67        </activity>
 68
 69        <meta-data
-69-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:9-62:33
+69-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:9-62:33
 70            android:name="unity.splash-mode"
-70-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-45
+70-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-45
 71            android:value="0" />
-71-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:13-30
+71-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:13-30
 72        <meta-data
-72-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:9-65:36
+72-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:9-65:36
 73            android:name="unity.splash-enable"
-73-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-47
+73-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-47
 74            android:value="True" />
-74-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-33
+74-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-33
 75        <meta-data
-75-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:9-68:36
+75-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:9-68:36
 76            android:name="unity.launch-fullscreen"
-76-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-51
+76-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-51
 77            android:value="True" />
-77-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:13-33
+77-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:13-33
 78        <meta-data
-78-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:9-71:37
+78-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:9-71:37
 79            android:name="unity.allow-resizable-window"
-79-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:13-56
+79-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:13-56
 80            android:value="False" />
-80-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:13-34
+80-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:13-34
 81        <meta-data
-81-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:9-74:50
+81-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:9-74:50
 82            android:name="notch.config"
-82-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:13-40
+82-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:13-40
 83            android:value="portrait|landscape" />
-83-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:74:13-47
+83-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:74:13-47
 84        <meta-data
-84-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:75:9-77:36
+84-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:75:9-77:36
 85            android:name="unity.auto-report-fully-drawn"
-85-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:13-57
+85-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:13-57
 86            android:value="true" />
-86-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:77:13-33
+86-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:77:13-33
 87        <meta-data
-87-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:78:9-80:34
+87-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:78:9-80:34
 88            android:name="com.softwinner.vr.mode"
-88-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:79:13-50
+88-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:79:13-50
 89            android:value="vr" />
-89-->[:unityLibrary] D:\PD_SOLAR\_New_Solar\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:80:13-31
+89-->[:unityLibrary] D:\NewPD_solar\Solar-System-VR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:80:13-31
 90    </application>
 91
 92</manifest>
