@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class DragPlanet : MonoBehaviour
@@ -24,7 +25,7 @@ public class DragPlanet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      Debug.DrawRay(Camera.main.transform.position,fwd,Color.red);
+     
     }
 
     public void DownButton()
@@ -33,34 +34,37 @@ public class DragPlanet : MonoBehaviour
       gameObject.GetComponent<SphereCollider>().enabled = false;
     }
 
+   
+
     public void UpButton()
     {
        Vector3 fwd = gameObject.transform.TransformDirection(Vector3.forward);
-       if(Physics.Raycast(Camera.main.transform.position,fwd,out hit))
+       if(Physics.Raycast(gameObject.transform.position,fwd,out hit, float.PositiveInfinity))
        {  
-        //Right Hit
-        
-
+          
         if(hit.transform.tag == gameObject.transform.tag)
         {
-            Debug.Log("Right-Hit");
+           // Debug.Log("Right-Hit");
             this.gameObject.transform.position = hit.transform.position;
             this.gameObject.transform.parent =  hit.transform;
-            gameObject.transform.localScale= new Vector3(1.5f,1.5f,1.5f);
+            gameObject.transform.localScale= new Vector3(1,1,1);
+            Debug.Log(hit.transform.name);
+
 
         }
         else
         {
-            Debug.Log("Wrong-Hit");
+            //Debug.Log("Wrong-Hit");
             gameObject.transform.parent = InitParent;
             gameObject.transform.localPosition = InitialPos;
             gameObject.GetComponent<SphereCollider>().enabled = true;
+            Debug.Log(hit.transform.name);
 
         }
        }
        else
        {
-            Debug.Log("No-hit");
+            //Debug.Log("No-hit");
             gameObject.transform.parent = InitParent;
             gameObject.transform.localPosition = InitialPos;
             gameObject.GetComponent<SphereCollider>().enabled = true;
