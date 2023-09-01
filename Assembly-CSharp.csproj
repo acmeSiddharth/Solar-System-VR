@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{e970aac3-2ed5-4bec-2798-d49ed0f6540e}</ProjectGuid>
+    <ProjectGuid>{34b2ad6d-1895-c8bb-52c3-ed8ce6106833}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -37,12 +37,16 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Mars.cs" />
+     <Compile Include="Assets\Scenes\DragDrop2\NamingSceneScripts\NamingScriptNew.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\Scenes\DragDrop2\Raycheck.cs" />
+     <Compile Include="Assets\Scenes\DragDrop2\DragPlanet.cs" />
      <Compile Include="Assets\Scripts\Venus.cs" />
      <Compile Include="Assets\Scripts\ManageAnimAndAudio.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\Scenes\DragDrop2\NamingSceneScripts\TextCheckNew.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\Scripts\ObjectChecking.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
@@ -66,6 +70,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\Skyworth Interaction Toolkit\Interaction\Sample\UISample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\Scenes\DragDrop2\Collidercheck.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\Scripts\MenuRemote.cs" />
      <Compile Include="Assets\Scripts\Jupiter.cs" />
@@ -83,17 +88,18 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
      <Compile Include="Assets\Scripts\Neptune.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\Scripts\NamingTextEnabler.cs" />
      <Compile Include="Assets\Scripts\ManageMenu.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
-     <Compile Include="Assets\Scenes\LearnController\RayDrag.cs" />
+     <Compile Include="Assets\Scenes\NamingSceneScripts\TextAssigninWrongAnswer.cs" />
      <Compile Include="Assets\Scripts\RightAnswerCheck.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
      <Compile Include="Assets\Scripts\ManageAnimationTime.cs" />
+     <Compile Include="Assets\Scripts\DragDropPlanets.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-     <Compile Include="Assets\Scenes\NamingSceneScripts\NamingScript.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\Scripts\CamView.cs" />
      <Compile Include="Assets\Scripts\Revloution.cs" />
@@ -366,10 +372,10 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.26f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\PackageCache\com.unity.testtools.codecoverage@1.2.3\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\PackageCache\com.unity.testtools.codecoverage@1.2.3\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.26f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -744,144 +750,144 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder.Editor">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder.Base">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.CoreUtils.Editor">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Skyworth">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.XR.Skyworth.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.XR.Skyworth.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Skyworth.Editor">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.XR.Skyworth.Editor.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.XR.Skyworth.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.CoreUtils">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder">
-        <HintPath>D:\PD_SOLAR\_New_Solar\Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
+        <HintPath>D:\NewPD_solar\Solar-System-VR\Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Skyworth.Interaction.Editor.csproj">
-      <Project>{e30f4b8e-8b8c-9d08-5a3d-041b27fc16bb}</Project>
+      <Project>{a2efd15a-8549-a69b-005a-700678cf8a0f}</Project>
       <Name>Skyworth.Interaction.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Skyworth.Interaction.csproj">
-      <Project>{d98ced31-a543-ff96-eb6e-ea0d21702747}</Project>
+      <Project>{75b241fd-5e0e-c5f5-7ea8-c29e63199499}</Project>
       <Name>Skyworth.Interaction</Name>
     </ProjectReference>
     <ProjectReference Include="Skyworth.Keyboard.Editor.csproj">
-      <Project>{61253601-196a-e0c1-d197-a00790f73865}</Project>
+      <Project>{45806da2-3ccb-b93e-d2a7-6ab11f1071dd}</Project>
       <Name>Skyworth.Keyboard.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Skyworth.Keyboard.csproj">
-      <Project>{90f7d1e9-2b4d-01b4-3e31-f2d440f399df}</Project>
+      <Project>{d7aafc62-a91d-8572-0d3c-cc0fdf1d8d7d}</Project>
       <Name>Skyworth.Keyboard</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@ public class DraGG : MonoBehaviour
     private Transform InitParent;
     private Vector3 InitPos;
     private Vector3 SCaleValue;
-     public Transform target,TransData;
+    public Transform target,TransData;
    
     void Start()
     {
@@ -42,7 +42,7 @@ public class DraGG : MonoBehaviour
 
     public void UpMouse()
     {
-         isDraging =false;
+        isDraging =false;
         gameObject.transform.parent = InitParent;
         gameObject.transform.localPosition = InitPos;
         gameObject.transform.localScale = SCaleValue;

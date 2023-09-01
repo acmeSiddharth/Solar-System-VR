@@ -42,7 +42,7 @@ public class RightAnswerCheck : MonoBehaviour
 
     public void HoverExit() 
     {
-         gameObject.GetComponent<Image>().color = new Color(0,0,0,150);
+         gameObject.GetComponent<Image>().color = new Color(66,66,66,255);
          gameObject.transform.GetChild(0).GetChild(0).GetComponent<Image>().color = new Color(191,191,191);
     }
     

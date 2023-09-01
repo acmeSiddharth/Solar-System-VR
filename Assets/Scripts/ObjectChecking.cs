@@ -4,6 +4,7 @@ public class ObjectChecking : MonoBehaviour
 {
     private Ray ray;
     private RaycastHit hit;
+    public NamingTextEnabler NamedScript;
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +31,8 @@ public class ObjectChecking : MonoBehaviour
             Debug.Log("hited the " + hit.collider.gameObject.name);
             if(hit.transform.tag == gameObject.transform.tag)
             {
-               Debug.Log("Right Hit");
+               Debug.Log("Right Hit Siddharth ");
+               NamedScript.EnableName();
                gameObject.SetActive(false);
                
             }
