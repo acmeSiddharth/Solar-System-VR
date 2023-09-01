@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Playscene.unity
+- path: Assets/Scenes/DragDrop2/DragDrop2.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
