@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class TextCheckNew : MonoBehaviour
 {
     [SerializeField] private Text InputText1;
-    [SerializeField] private GameObject Question1,Question2,Question3;
+    [SerializeField] private GameObject Question1,Question2,Question3,Question4,Question5;
     private Button btn;
     [SerializeField] private GameObject RightPanel,WrongPanel;
     
@@ -94,6 +94,54 @@ public class TextCheckNew : MonoBehaviour
     }
 
 #endregion ThirdQuestionEndRegion
+
+
+#region  ForthQuestionEndRegion
+    public void TextCheckingOfQuestionFour()
+    {
+ if(InputText1.text.ToUpper() == "SOLID")
+        {
+             RightPanel.SetActive(true);
+           Invoke("RightPanelOff",2.0f);
+          InputText1.text = " ";
+           StartCoroutine(WaitingTimer());
+          Question4.SetActive(false);
+          Question5.SetActive(true);
+        }
+        else
+        {
+             WrongPanel.SetActive(true);
+           Invoke("WrongPanelOff",2.0f);
+           Question4.SetActive(false);
+           Question5.SetActive(true);
+        }
+    }
+
+#endregion ForthQuestionEndRegion
+
+
+#region  FifthQuestionEndRegion
+    public void TextCheckingOfQuestionFive()
+    {
+ if(InputText1.text.ToUpper() == "OCEANIC")
+        {
+             RightPanel.SetActive(true);
+           Invoke("RightPanelOff",2.0f);
+
+          // final result panel.
+          InputText1.text = " ";
+           StartCoroutine(WaitingTimer());
+          Question5.SetActive(false);
+        }
+        else
+        {
+             WrongPanel.SetActive(true);
+           Invoke("WrongPanelOff",2.0f);
+           Question5.SetActive(false);
+        }
+    }
+
+#endregion FifthQuestionEndRegion
 
 
 #region WaitingPart

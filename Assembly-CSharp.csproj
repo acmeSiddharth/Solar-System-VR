@@ -37,12 +37,16 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Mars.cs" />
+     <Compile Include="Assets\Scenes\DragDrop2\NamingSceneScripts\NamingScriptNew.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\Scenes\DragDrop2\Raycheck.cs" />
+     <Compile Include="Assets\Scenes\DragDrop2\DragPlanet.cs" />
      <Compile Include="Assets\Scripts\Venus.cs" />
      <Compile Include="Assets\Scripts\ManageAnimAndAudio.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\Scenes\DragDrop2\NamingSceneScripts\TextCheckNew.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\Scripts\ObjectChecking.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
@@ -66,6 +70,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\Skyworth Interaction Toolkit\Interaction\Sample\UISample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\Scenes\DragDrop2\Collidercheck.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\Scripts\MenuRemote.cs" />
      <Compile Include="Assets\Scripts\Jupiter.cs" />
@@ -86,7 +91,6 @@
      <Compile Include="Assets\Scripts\ManageMenu.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\Scenes\NamingSceneScripts\TextAssigninWrongAnswer.cs" />
-     <Compile Include="Assets\Scenes\LearnController\RayDrag.cs" />
      <Compile Include="Assets\Scripts\RightAnswerCheck.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
@@ -98,11 +102,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\Scripts\CamView.cs" />
      <Compile Include="Assets\Scripts\Revloution.cs" />
-     <Compile Include="Assets\Scenes\DragDrop2\Collidercheck.cs" />
-     <Compile Include="Assets\Scenes\DragDrop2\NamingSceneScripts\TextCheckNew.cs" />
-     <Compile Include="Assets\Scenes\DragDrop2\NamingSceneScripts\NamingScriptNew.cs" />
-     <Compile Include="Assets\Scenes\DragDrop2\Raycheck.cs" />
-     <Compile Include="Assets\Scenes\DragDrop2\DragPlanet.cs" />
+     <Compile Include="Assets\Scripts\NamingTextEnabler.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Skyworth Interaction Toolkit\Interaction\Assets\Resources\Shader\SvrRecticleDown.shader" />
